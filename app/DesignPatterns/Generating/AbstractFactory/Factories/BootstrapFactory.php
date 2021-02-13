@@ -18,3 +18,4 @@ class BootstrapFactory implements GuiFactoryInterface
         return new CheckBoxBootstrap();
     }
 }
+
