@@ -8,6 +8,7 @@ use App\DesignPatterns\Fundamental\PropertyContainer\BlogPost as Post;
 use App\DesignPatterns\Fundamental\Delegation\AppMessenger;
 use App\DesignPatterns\Fundamental\EventChannel\EventChannelJob;
 use App\DesignPatterns\Generating\AbstractFactory\GuiKitFactory;
+use App\DesignPatterns\Generating\StaticFactory\StaticFactory;
 
 class BlogPost extends Controller
 {
@@ -135,4 +136,41 @@ class BlogPost extends Controller
         dump($result);
     }
 
+    /**
+     * Статическая фабрика - самый простой способ создания фабрик(объектов класаоов) с помощью одного статического метода
+     * фабрики, который обычно называется factory  или build
+     */
+    public function StaticFactory()
+    {
+        $appMailMessage = StaticFactory::build('email');
+        $appPhoneMessage = StaticFactory::build('sms');
+
+        dump($appMailMessage);
+        dump($appPhoneMessage);
+    }
+
+    /**
+     * Простая фабрика - просто генерирует экземпляр для клиента без предоставления какой-либо логики экземпляра.
+     * Это функция или метод, возвращающая объекты разных прототипов или классов из вызова какого-то метода,
+     * который считается новым.
+     */
+    public function SimpleFactory()
+    {
+        $factory = new MessengerSimplaFactory();
+
+        $appMailMessage = $factory->build('email');
+        $appPhoneMessage = $factory->build('sms');
+
+        dump($appMailMessage);
+        dump($appPhoneMessage);
+    }
+
+    /**
+     * Одиночка (англ. Singleton) — порождающий шаблон проектирования, гарантирующий, что в однопоточном приложении
+     * будет единственный экземпляр некоторого класса, и предоставляющий глобальную точку доступа к этому экземпляру.
+     */
+    public function Singleton()
+    {
+
+    }
 }
