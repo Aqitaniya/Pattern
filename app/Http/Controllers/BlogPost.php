@@ -9,6 +9,10 @@ use App\DesignPatterns\Fundamental\Delegation\AppMessenger;
 use App\DesignPatterns\Fundamental\EventChannel\EventChannelJob;
 use App\DesignPatterns\Generating\AbstractFactory\GuiKitFactory;
 use App\DesignPatterns\Generating\StaticFactory\StaticFactory;
+use App\DesignPatterns\Generating\Singleton\SimpleSingleton;
+use App\DesignPatterns\Generating\Singleton\AdvancedSingleton;
+use App\DesignPatterns\Generating\Singleton\Interfaces\AnotherConnection;
+use App\DesignPatterns\Generating\Singleton\LaravelSingleton;
 
 class BlogPost extends Controller
 {
@@ -168,9 +172,31 @@ class BlogPost extends Controller
     /**
      * Одиночка (англ. Singleton) — порождающий шаблон проектирования, гарантирующий, что в однопоточном приложении
      * будет единственный экземпляр некоторого класса, и предоставляющий глобальную точку доступа к этому экземпляру.
+     * Антипаттерн. Не использовать в классах, где важно состояние, т.к. на разных этапах выполнеия состояния класса
+     * могу меняться.
+     *Единственный экземпляр - меньше памяти.
      */
     public function Singleton()
     {
+        //Simple way
+        $result['simpleSingleton1'] = SimpleSingleton::getInstance();
+        $result['simpleSingleton2'] = SimpleSingleton::getInstance();
+        $result['simpleSingleton3'] = SimpleSingleton::getInstance();
 
+        $result[] = $result['simpleSingleton1'] === $result['simpleSingleton3'];
+
+        //Advanced way
+        $result['advancedSingleton1'] = AdvancedSingleton::getInstance();
+        $result['advancedSingleton1']->setTest('advancedSingleton1');
+        $result['advancedSingleton2'] = AdvancedSingleton::getInstance();
+
+        //Laravel way
+        $result['laravelSingleton1'] = app(AnotherConnection::class);
+        $result['laravelSingleton1']->setTest('laravelSingleton1');
+        $result['laravelSingleton2'] = app(AnotherConnection::class);
+        $result['laravelSingleton3'] = new LaravelSingleton();
+
+        $result[] = $result['laravelSingleton1'] === $result['laravelSingleton2'];
+        $result[] = $result['laravelSingleton1'] === $result['laravelSingleton3'];
     }
 }
