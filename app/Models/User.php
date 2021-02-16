@@ -40,4 +40,18 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function departmentName()
+    {
+        $departments = [
+            'floris',
+            'logist',
+            'courierHikig',
+            'courierAuto',
+            'courierAutoNight',
+        ];
+
+        $key = array_rand($departments);
+        return $departments[$key];
+    }
 }

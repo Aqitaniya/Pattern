@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
+use Carbon\Carbon;
 use App\DesignPatterns\Generating\FactoryMethod\Classes\Forms\BootstrapDialogForm;
 use Illuminate\Http\Request;
 use App\DesignPatterns\Fundamental\PropertyContainer\BlogPost as Post;
@@ -198,5 +200,27 @@ class BlogPost extends Controller
 
         $result[] = $result['laravelSingleton1'] === $result['laravelSingleton2'];
         $result[] = $result['laravelSingleton1'] === $result['laravelSingleton3'];
+    }
+
+    /**
+     * -----------Поведенческие шаблоны---------------
+     */
+
+    /**
+     *Стратегия (англ. Strategy) — поведенческий шаблон проектирования, предназначенный для определения семейства
+     * алгоритмов, инкапсуляции каждого из них и обеспечения их взаимозаменяемости. Это позволяет выбирать алгоритм
+     * путём определения соответствующего класса. Шаблон Strategy позволяет менять выбранный алгоритм независимо от
+     * объектов-клиентов, которые его используют.
+     */
+    public function Strategy()
+    {
+        $period = [
+            Carbon::now()->subMonth()->startOfMonth(),
+            Carbon::now()->subMonth()->endOfMonth(),
+        ];
+
+        $users = User::all();
+        $result = (new SalaryManager($period, $users))->handle();
+        dump($result);
     }
 }
