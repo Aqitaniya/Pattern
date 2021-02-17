@@ -229,6 +229,27 @@ class BlogPost extends Controller
     }
 
     /**
+     * Строитель (Builder) — это порождающий паттерн проектирования, который позволяет создавать сложные объекты
+     * пошагово. Строитель даёт возможность использовать один и тот же код строительства для получения разных
+     * представлений объектов.
+     */
+    public function Builder()
+    {
+        $builder = new BlogPostBuilder();
+        $posts[] = $builder->setTitle('from Builder')
+                            ->getBlogPost();
+
+        $manager = new BlogPostManager();
+        $manager->setBuilder($builder);
+
+        $posts[] = $manager->createCleanPost();
+        $posts[] = $manager->createNewPostIt();
+        $posts[] = $manager->createNewPostCats();
+
+        dump($posts);
+    }
+
+    /**
      * -----------Поведенческие шаблоны---------------
      */
 
