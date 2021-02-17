@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="754e66db-9313-4c6c-8185-43f191164168" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Interfaces/SalaryStrategyInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/SalaryManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/AbstractStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/CourierAutoNightStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/CourierAutoStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/CourierHikigStrstegy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/FlorisStrategy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/LogistStrategy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/Interfaces/MultitonInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/MultitonTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/SimpleMultiton.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/SimpleMultitonNext.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogPost.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogPost.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/User.php" afterPath="$PROJECT_DIR$/app/Models/User.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,15 +24,75 @@
       <file leaf-file-name="BlogPost.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogPost.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="215" column="5" lean-forward="true" selection-start-line="215" selection-start-column="5" selection-end-line="215" selection-end-column="5" />
+            <state relative-caret-position="-3083">
+              <caret line="17" column="57" lean-forward="false" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
               <folding>
-                <element signature="e#40#60#0#PHP" expanded="true" />
-                <element signature="e#1280#1701#0#PHP" expanded="false" />
-                <element signature="e#2148#2579#0#PHP" expanded="false" />
-                <element signature="e#3151#3254#0#PHP" expanded="false" />
-                <element signature="e#5746#5902#0#PHP" expanded="false" />
+                <element signature="e#1339#1760#0#PHP" expanded="false" />
+                <element signature="e#2207#2638#0#PHP" expanded="false" />
+                <element signature="e#3210#3313#0#PHP" expanded="false" />
+                <element signature="e#5805#5961#0#PHP" expanded="false" />
+                <element signature="e#10062#10359#0#PHP" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultitonInterface.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/Interfaces/MultitonInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LaravelSingleton.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Singleton/LaravelSingleton.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleMultiton.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/SimpleMultiton.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="72" lean-forward="false" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleSingleton.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Singleton/SimpleSingleton.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultitonTrait.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/MultitonTrait.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleMultitonNext.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/SimpleMultitonNext.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,67 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourierAutoNightStrategy.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/CourierAutoNightStrategy.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourierAutoStrategy.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/CourierAutoStrategy.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourierHikigStrstegy.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/CourierHikigStrstegy.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogistStrategy.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/LogistStrategy.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlorisStrategy.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/FlorisStrategy.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="45" lean-forward="false" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractStrategy.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AbstractStrategy.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/AbstractStrategy.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -141,6 +136,7 @@
       <find>ButttonBootstrap</find>
       <find>But</find>
       <find>calculateUserSalary</find>
+      <find>MultitonTrait</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,11 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Fundamental/Delegation/Interfaces/MessengerInterface.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Fundamental/Delegation/AppMessenger.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Fundamental/Delegation/Messengers/AbstractMessenger.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Fundamental/Delegation/Messengers/EmailMessenger.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Fundamental/Delegation/Messengers/SmsMessenger.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Fundamental/EventChannel/EventChannelJob.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Fundamental/EventChannel/Interfaces/EventChannelInterface.php" />
@@ -189,7 +180,6 @@
         <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Singleton/AnotherConnection.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Singleton/Interfaces/AnotherConnection.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Singleton/SimpleSingleton.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/BlogPost.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Interfaces/SararyStrategyInterface.php" />
         <option value="$PROJECT_DIR$/app/Models/User.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/CourierAutoNightStrategy.php" />
@@ -200,6 +190,12 @@
         <option value="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/SalaryManager.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Interfaces/SalaryStrategyInterface.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/AbstractStrategy.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/BlogPost.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/Interfaces/MultitonInterface.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/SimpleMultitonNext.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/MulttitonTrait.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/MultitonTrait.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/SimpleMultiton.php" />
       </list>
     </option>
   </component>
@@ -217,6 +213,62 @@
     <option name="y" value="-9" />
     <option name="width" value="1938" />
     <option name="height" value="1048" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code SmellPHP</id>
+          </State>
+          <State>
+            <id>Code StylePHP</id>
+          </State>
+          <State>
+            <id>Control FlowPHP</id>
+          </State>
+          <State>
+            <id>DocBlocksJoomla!</id>
+          </State>
+          <State>
+            <id>GeneralPHP</id>
+          </State>
+          <State>
+            <id>Joomla!</id>
+          </State>
+          <State>
+            <id>Naming conventionsPHP</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>PHP Strict StandardsPHP</id>
+          </State>
+          <State>
+            <id>PHPDocPHP</id>
+          </State>
+          <State>
+            <id>Probable bugsPHP</id>
+          </State>
+          <State>
+            <id>Replaceable assignmentsPHP</id>
+          </State>
+          <State>
+            <id>Type compatibilityPHP</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+          <State>
+            <id>UnusedPHP</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -257,23 +309,23 @@
               <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Behavior" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Generating" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Behavior" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Strategy" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Generating" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Multiton" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Behavior" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Strategy" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Generating" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Multiton" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Interfaces" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -281,9 +333,8 @@
               <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Behavior" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Strategy" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Strategies" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Generating" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Singleton" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -313,9 +364,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Wishes3" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/arp" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
@@ -356,12 +407,12 @@
       <workItem from="1612811258686" duration="3398000" />
       <workItem from="1612946350117" duration="426000" />
       <workItem from="1612982274555" duration="16668000" />
-      <workItem from="1613217153431" duration="14648000" />
+      <workItem from="1613217153431" duration="19619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38325000" />
+    <option name="totallyTimeSpent" value="43296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -394,41 +445,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/SimpleMultiton.php</url>
+          <line>15</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Fundamental/PropertyContainer/Interfaces/PropertyContainerInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Fundamental/Delegation/Interfaces/MessengerInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Fundamental/Delegation/Messengers/AbstractMessenger.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Fundamental/Delegation/Messengers/EmailMessenger.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -640,7 +668,7 @@
         <state relative-caret-position="21">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
           <folding>
-            <element signature="e#64#145#0#PHP" expanded="true" />
+            <element signature="e#64#145#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -650,7 +678,7 @@
         <state relative-caret-position="420">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#74#158#0#PHP" expanded="true" />
+            <element signature="e#74#158#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -686,7 +714,7 @@
         <state relative-caret-position="21">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
           <folding>
-            <element signature="e#62#121#0#PHP" expanded="true" />
+            <element signature="e#62#121#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -715,26 +743,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Singleton/LaravelSingleton.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Singleton/Interfaces/AnotherConnection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Singleton/SimpleSingleton.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="50" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -782,22 +794,8 @@
     <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/LogistStrategy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogPost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="215" column="5" lean-forward="true" selection-start-line="215" selection-start-column="5" selection-end-line="215" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#60#0#PHP" expanded="true" />
-            <element signature="e#1280#1701#0#PHP" expanded="false" />
-            <element signature="e#2148#2579#0#PHP" expanded="false" />
-            <element signature="e#3151#3254#0#PHP" expanded="false" />
-            <element signature="e#5746#5902#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -823,6 +821,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Singleton/SimpleSingleton.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Singleton/LaravelSingleton.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/MultitonTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/SimpleMultitonNext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogPost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3083">
+          <caret line="17" column="57" lean-forward="false" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding>
+            <element signature="e#1339#1760#0#PHP" expanded="false" />
+            <element signature="e#2207#2638#0#PHP" expanded="false" />
+            <element signature="e#3210#3313#0#PHP" expanded="false" />
+            <element signature="e#5805#5961#0#PHP" expanded="false" />
+            <element signature="e#10062#10359#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/SimpleMultiton.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="72" lean-forward="false" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/Interfaces/MultitonInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="38" />
           <folding />
         </state>
       </provider>

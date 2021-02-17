@@ -15,6 +15,7 @@ use App\DesignPatterns\Generating\Singleton\SimpleSingleton;
 use App\DesignPatterns\Generating\Singleton\AdvancedSingleton;
 use App\DesignPatterns\Generating\Singleton\Interfaces\AnotherConnection;
 use App\DesignPatterns\Generating\Singleton\LaravelSingleton;
+use App\DesignPatterns\Generating\Multiton\SimpleMultiton;
 
 class BlogPost extends Controller
 {
@@ -200,6 +201,31 @@ class BlogPost extends Controller
 
         $result[] = $result['laravelSingleton1'] === $result['laravelSingleton2'];
         $result[] = $result['laravelSingleton1'] === $result['laravelSingleton3'];
+    }
+
+    /**
+     * Мультитон (англ. multiton) — порождающий шаблон проектирования, который обобщает шаблон "Одиночка". В то время,
+     * как "Одиночка" разрешает создание лишь одного экземпляра класса, мультитон позволяет создавать несколько
+     * экземпляров, которые управляются через ассоциативный массив. Создаётся лишь один экземпляр для каждого из
+     * ключей ассоциативного массива, что позволяет контролировать уникальность объекта по какому-либо признаку.
+     */
+    public function Multiton()
+    {
+        $multiton[] = SimpleMultiton::getInstance('mysql')->setTest('mysql-test');
+        $multiton[] = SimpleMultiton::getInstance('mongo');
+
+        $multiton[] = SimpleMultiton::getInstance('mysql');
+        $multiton[] = SimpleMultiton::getInstance('mongo')->setTest('mongo-test');
+
+        $simpleMultitonNext = SimpleMultitonNext::getInstance('mysql');
+        $simpleMultitonNext->test2 = 'init';
+        $multiton[] = $simpleMultitonNext;
+
+        $simpleMultitonNext = SimpleMultitonNext::getInstance('mysql');
+        $simpleMultitonNext->test2 = 'init2';
+        $multiton[] = $simpleMultitonNext;
+
+        dump($multiton);
     }
 
     /**
