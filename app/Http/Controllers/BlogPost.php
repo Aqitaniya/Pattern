@@ -16,6 +16,7 @@ use App\DesignPatterns\Generating\Singleton\AdvancedSingleton;
 use App\DesignPatterns\Generating\Singleton\Interfaces\AnotherConnection;
 use App\DesignPatterns\Generating\Singleton\LaravelSingleton;
 use App\DesignPatterns\Generating\Multiton\SimpleMultiton;
+use App\DesignPatterns\Generating\LazyInitialization\LazyInitialization;
 
 class BlogPost extends Controller
 {
@@ -250,6 +251,21 @@ class BlogPost extends Controller
     }
 
     /**
+     * Lazy initialization он же Ленивая загрузка, Отложенная инициализация или Lazy load. Данный шаблон относится к
+     * порождающим шаблонам проектирования и направлен на грамотную работу с ресурсами системы.
+     */
+    public function LazyInitialization()
+    {
+        $lazyLoad = new LazyInitialization();
+
+        $user[] = $lazyLoad->getUser()->name;
+        $user[] = $lazyLoad->getUser()->email;
+        $user[] = $lazyLoad->getUser()->created_at;
+
+        dump($user);
+    }
+
+    /**
      * -----------Поведенческие шаблоны---------------
      */
 
@@ -270,4 +286,5 @@ class BlogPost extends Controller
         $result = (new SalaryManager($period, $users))->handle();
         dump($result);
     }
+
 }

@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="754e66db-9313-4c6c-8185-43f191164168" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/BlogPostBuilder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/BlogPostManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/Classes/BlogPost.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/Interfaces/BlogPostBuilderInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Generating/LazyInitialization/LazyInitialization.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogPost.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogPost.php" />
     </list>
@@ -21,27 +18,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="BlogPost.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BlogPost.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogPost.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="246" column="46" lean-forward="false" selection-start-line="246" selection-start-column="29" selection-end-line="246" selection-end-column="46" />
+            <state relative-caret-position="428">
+              <caret line="264" column="18" lean-forward="false" selection-start-line="264" selection-start-column="18" selection-end-line="264" selection-end-column="18" />
               <folding>
                 <element signature="e#40#60#0#PHP" expanded="true" />
-                <element signature="e#1339#1760#0#PHP" expanded="false" />
-                <element signature="e#2207#2638#0#PHP" expanded="false" />
-                <element signature="e#3210#3313#0#PHP" expanded="false" />
-                <element signature="e#5805#5961#0#PHP" expanded="false" />
-                <element signature="e#10769#11066#0#PHP" expanded="false" />
+                <element signature="e#1412#1833#0#PHP" expanded="false" />
+                <element signature="e#2280#2711#0#PHP" expanded="false" />
+                <element signature="e#3283#3386#0#PHP" expanded="false" />
+                <element signature="e#5043#5284#0#PHP" expanded="false" />
+                <element signature="e#5878#6034#0#PHP" expanded="false" />
+                <element signature="e#6239#6459#0#PHP" expanded="false" />
+                <element signature="e#6736#6996#0#PHP" expanded="false" />
+                <element signature="e#7437#8492#0#PHP" expanded="false" />
+                <element signature="e#8971#9645#0#PHP" expanded="false" />
+                <element signature="e#11339#11636#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlogPostManager.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LazyInitialization.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/LazyInitialization/LazyInitialization.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlogPostManager.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/BlogPostManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
+            <state relative-caret-position="867">
               <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
               <folding />
             </state>
@@ -51,7 +63,7 @@
       <file leaf-file-name="BlogPostBuilder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/BlogPostBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
+            <state relative-caret-position="-378">
               <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
@@ -118,16 +130,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultitonTrait.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/MultitonTrait.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -144,8 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Fundamental/EventChannel/Interfaces/PublisherInterface.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Fundamental/EventChannel/Classes/Publisher.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Fundamental/EventChannel/Interfaces/SubscriberInterface.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Fundamental/EventChannel/Classes/Subscriber.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/AbstractFactory/Interfaces/GeetFactoryInterface.php" />
@@ -193,8 +193,10 @@
         <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/Classes/BlogPost.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/BlogPostBuilder.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/Interfaces/BlogPostBuilderInterface.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/BlogPost.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/BlogPostManager.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/LazyInitialization/LaztInitialization.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/BlogPost.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/LazyInitialization/LazyInitialization.php" />
       </list>
     </option>
   </component>
@@ -316,52 +318,7 @@
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Generating" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Builder" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Generating" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Builder" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Generating" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Builder" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Interfaces" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Generating" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="FactoryMethod" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Generating" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="FactoryMethod" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Generating" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="FactoryMethod" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Forms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="LazyInitialization" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -435,12 +392,12 @@
       <workItem from="1612946350117" duration="426000" />
       <workItem from="1612982274555" duration="16668000" />
       <workItem from="1613217153431" duration="20443000" />
-      <workItem from="1613590848401" duration="2219000" />
+      <workItem from="1613590848401" duration="3517000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46339000" />
+    <option name="totallyTimeSpent" value="47637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -480,18 +437,11 @@
           <line>15</line>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Fundamental/PropertyContainer/PropertyContainer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -848,34 +798,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/BlogPostManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/BlogPostBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
+        <state relative-caret-position="-378">
           <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/LazyInitialization/LazyInitialization.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogPost.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="246" column="46" lean-forward="false" selection-start-line="246" selection-start-column="29" selection-end-line="246" selection-end-column="46" />
+        <state relative-caret-position="428">
+          <caret line="264" column="18" lean-forward="false" selection-start-line="264" selection-start-column="18" selection-end-line="264" selection-end-column="18" />
           <folding>
             <element signature="e#40#60#0#PHP" expanded="true" />
-            <element signature="e#1339#1760#0#PHP" expanded="false" />
-            <element signature="e#2207#2638#0#PHP" expanded="false" />
-            <element signature="e#3210#3313#0#PHP" expanded="false" />
-            <element signature="e#5805#5961#0#PHP" expanded="false" />
-            <element signature="e#10769#11066#0#PHP" expanded="false" />
+            <element signature="e#1412#1833#0#PHP" expanded="false" />
+            <element signature="e#2280#2711#0#PHP" expanded="false" />
+            <element signature="e#3283#3386#0#PHP" expanded="false" />
+            <element signature="e#5043#5284#0#PHP" expanded="false" />
+            <element signature="e#5878#6034#0#PHP" expanded="false" />
+            <element signature="e#6239#6459#0#PHP" expanded="false" />
+            <element signature="e#6736#6996#0#PHP" expanded="false" />
+            <element signature="e#7437#8492#0#PHP" expanded="false" />
+            <element signature="e#8971#9645#0#PHP" expanded="false" />
+            <element signature="e#11339#11636#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/BlogPostManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
