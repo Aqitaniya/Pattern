@@ -17,6 +17,7 @@ use App\DesignPatterns\Generating\Singleton\Interfaces\AnotherConnection;
 use App\DesignPatterns\Generating\Singleton\LaravelSingleton;
 use App\DesignPatterns\Generating\Multiton\SimpleMultiton;
 use App\DesignPatterns\Generating\LazyInitialization\LazyInitialization;
+use App\DesignPatterns\Generating\Prototype\UserRepository;
 
 class BlogPost extends Controller
 {
@@ -265,6 +266,20 @@ class BlogPost extends Controller
         dump($user);
     }
 
+    /**
+     * Прототип (он же клон, prototype, clone) порождающий шаблон проектирования цель которого не создавать объект
+     * через конструктор, а клонировать от уже созданного.
+     */
+    public function Prototype()
+    {
+        $users = new UserRepository();
+        dump($users->getAllWithPaginate());
+        ///////////
+        $prototypeDemo = new PrototypeDemo();
+        $result = $prototypeDemo->run();
+
+        dump($result);
+    }
     /**
      * -----------Поведенческие шаблоны---------------
      */
