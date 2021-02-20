@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\DesignPatterns\Structure\Adapter\Interfaces\MediaLibraryInterface;
 use App\Models\User;
 use Carbon\Carbon;
 use App\DesignPatterns\Generating\FactoryMethod\Classes\Forms\BootstrapDialogForm;
@@ -19,6 +20,8 @@ use App\DesignPatterns\Generating\Multiton\SimpleMultiton;
 use App\DesignPatterns\Generating\LazyInitialization\LazyInitialization;
 use App\DesignPatterns\Generating\Prototype\UserRepository;
 use App\DesignPatterns\Generating\ObjectPool\ObjectPoolDemo;
+use App\DesignPatterns\Structure\Adapter\Classes\MediaLibraryAdapter;
+use App\DesignPatterns\Structure\Adapter\Classes\MediaLibrarySelfWritten;
 
 class BlogPost extends Controller
 {
@@ -319,6 +322,33 @@ class BlogPost extends Controller
 
         $users = User::all();
         $result = (new SalaryManager($period, $users))->handle();
+        dump($result);
+    }
+
+
+    /**
+     * -----------Структурные шаблоны---------------
+     */
+
+    /**
+     * Адаптер (англ. Adapter) - структурный паттерн проектирования.
+     * предназначенный для организации использования функций объекта, недоступного для модификации, через
+     * специально созданный интерфейс
+     *
+     * Может пригодится когда нужно вместо текущей библиотеки использовать новую, чтобы не переписвать вызовы по
+     * всему проекту используют адаптер как проиежуточное звено.
+     */
+    public function Adapter()
+    {
+//        $mediaLibrary = app(MediaLibrarySelfWritten::class);
+
+        //see service provider
+        $mediaLibrary = app(MediaLibraryInterface::class);
+
+
+        $result[] = $mediaLibrary->update('ImageFile');
+        $result[] = $mediaLibrary->get('ImageFile');
+
         dump($result);
     }
 
