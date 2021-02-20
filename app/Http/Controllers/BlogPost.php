@@ -18,6 +18,7 @@ use App\DesignPatterns\Generating\Singleton\LaravelSingleton;
 use App\DesignPatterns\Generating\Multiton\SimpleMultiton;
 use App\DesignPatterns\Generating\LazyInitialization\LazyInitialization;
 use App\DesignPatterns\Generating\Prototype\UserRepository;
+use App\DesignPatterns\Generating\ObjectPool\ObjectPoolDemo;
 
 class BlogPost extends Controller
 {
@@ -279,6 +280,25 @@ class BlogPost extends Controller
         $result = $prototypeDemo->run();
 
         dump($result);
+    }
+
+    /**
+     * Объектный пул (Пул объектов, object pool) - достаточно противоречивый шаблон проектирования. Прост в
+     * реализации и понимании, но сложно привести реально полезный пример из жизни.
+     * порождающий шаблон проектирования, набор инициализированных и готовых к использованию объектов. Когда системе
+     * требуется объект, он не создаётся, а берётся из пула. Когда объект больше не нужен, он не уничтожается,
+     * а возвращается в пул со своим базовым состоянием.
+     *
+     * После того, как объект возвращён, он должен вернуться в состояние, пригодное для дальнейшего использования.
+     * Если объекты после возвращения в пул оказываются в неправильном или неопределённом состоянии, такая конструкция
+     * называется объектной клоакой (англ. object cesspool).
+     * Повторное использование объектов также может привести к утечке информации. Если в объекте есть секретные данные (
+     * например, номер кредитной карты), после освобождения объекта эту информацию надо затереть.
+     */
+    public function ObjectPool()
+    {
+        $objectPoolDemo = new ObjectPoolDemo();
+        $objectPoolDemo->run();
     }
     /**
      * -----------Поведенческие шаблоны---------------
