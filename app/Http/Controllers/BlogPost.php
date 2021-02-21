@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\DesignPatterns\Structure\Adapter\Interfaces\MediaLibraryInterface;
+use App\Models\Order;
 use App\Models\User;
 use Carbon\Carbon;
 use App\DesignPatterns\Generating\FactoryMethod\Classes\Forms\BootstrapDialogForm;
@@ -351,5 +352,56 @@ class BlogPost extends Controller
 
         dump($result);
     }
+
+    /**
+     * Шаблон фасад (англ. Facade) — структурный паттерн проектирования, позволяющий скрыть сложность системы путём
+     * сведения всех возможных внешних вызовов к одному объекту, делегирующему их соответствующим объектам системы.
+     */
+    public function FacadeRoute(Request $request)
+    {
+        $this->saveOrder( $request);//так делать не надо
+        $this->saveOrder2($request);//лучше, но так тоже делать не надо
+        $this->Facade();//лучше
+    }
+
+    private function saveOrder(Request $request)
+    {
+        $order = new Order();
+
+        if($request->has('client')){
+            $order->client = $request->get('client');
+        }
+
+        if($request->has('recipient')){
+            $order->recipient = $request->get('recipient');
+        }
+
+        if($request->has('deliveryDt')){
+            $order->delivery = $request->get('deliveryDt');
+        }
+
+        $order->save();
+    }
+
+    private function saveOrder2(Request $request)
+    {
+        $order = new Order();
+
+        (new OrderSaveProducts($order, $request))->run();
+        (new OrderSaveDates($order, $request))->run();
+        (new OrderSaveUser($order, $request))->run();
+
+        $order->save();
+    }
+
+    private function Facade()
+    {
+        $order = new Order();
+        $data = request()->all();
+
+        (new OrderSaveFacade())->save($order, $data);
+
+    }
+
 
 }
