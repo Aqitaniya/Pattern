@@ -23,7 +23,11 @@ use App\DesignPatterns\Generating\Prototype\UserRepository;
 use App\DesignPatterns\Generating\ObjectPool\ObjectPoolDemo;
 use App\DesignPatterns\Structure\Adapter\Classes\MediaLibraryAdapter;
 use App\DesignPatterns\Structure\Adapter\Classes\MediaLibrarySelfWritten;
+use App\DesignPatterns\Structure\Bridge\WithoutBridge\WithoutBridgeDemo;
+use App\DesignPatterns\Structure\Bridge\WithBridge\WithBridgeDemo;
 
+//https://refactoring.guru/ru/design-patterns/bridge
+//https://www.youtube.com/watch?v=gMNeph0I8PA&list=PLoonZ8wII66hKbEvIVAZnp1h4CE-4Mtk4&index=20
 class BlogPost extends Controller
 {
     /**
@@ -403,5 +407,13 @@ class BlogPost extends Controller
 
     }
 
-
+    /**
+     * Мост — это структурный паттерн проектирования, который разделяет один или несколько классов на две отдельные
+     * иерархии — абстракцию и реализацию, позволяя изменять их независимо друг от друга.
+     */
+    public function Bridge()
+    {
+        (new WithoutBridgeDemo())->run();
+        (new WithBridgeDemo)->run();
+    }
 }

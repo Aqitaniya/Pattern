@@ -5,11 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="754e66db-9313-4c6c-8185-43f191164168" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Facade/OrderSaveFacade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Facade/Subsystem/OrderSaveDates.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Facade/Subsystem/OrderSaveProducts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Facade/Subsystem/OrderSaveUsers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Facade/Subsystem/SaveOrderAbstract.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/Entities/Category.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/Entities/Client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/Entities/Product.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Abstraction/WidgetAbstraction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Abstraction/WidgetBigAbstraction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Abstraction/WidgetMiddleAbstraction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Abstraction/WidgetSmallAbstraction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Interfaces/WidgetRealizationInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Realization/CategoryWidgetRealization.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Realization/ProductWidgetRealization.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/WithBridgeDemo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetAbstract.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetCategory/WidgetBigCategory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetCategory/WidgetMiddleCategory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetCategory/WidgetSmallCategory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetProduct/WidgetBigProduct.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetProduct/WidgetMiddleProduct.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetProduct/WidgetSmallProduct.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/WithoutBridgeDemo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogPost.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogPost.php" />
     </list>
@@ -20,117 +34,129 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Unnamed">
+      <favorite_root url="file://$PROJECT_DIR$/app/Http/Controllers/BlogPost.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="BlogPost.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogPost.php">
+      <file leaf-file-name="WithBridgeDemo.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/WithBridgeDemo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="385" column="0" lean-forward="false" selection-start-line="385" selection-start-column="0" selection-end-line="394" selection-end-column="5" />
+            <state relative-caret-position="357">
+              <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
               <folding>
-                <element signature="e#40#114#0#PHP" expanded="true" />
-                <element signature="e#1774#2195#0#PHP" expanded="false" />
-                <element signature="e#2642#3073#0#PHP" expanded="false" />
-                <element signature="e#3645#3748#0#PHP" expanded="false" />
-                <element signature="e#5405#5646#0#PHP" expanded="false" />
-                <element signature="e#6240#6396#0#PHP" expanded="false" />
-                <element signature="e#6601#6821#0#PHP" expanded="false" />
-                <element signature="e#7098#7358#0#PHP" expanded="false" />
-                <element signature="e#7799#8854#0#PHP" expanded="false" />
-                <element signature="e#9333#10007#0#PHP" expanded="false" />
-                <element signature="e#13289#13586#0#PHP" expanded="false" />
+                <element signature="e#65#122#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderSaveFacade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Facade/OrderSaveFacade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SaveOrderAbstract.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Facade/Subsystem/SaveOrderAbstract.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Order.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Prototype/Order.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderSaveDates.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Facade/Subsystem/OrderSaveDates.php">
+      <file leaf-file-name="WidgetBigAbstraction.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Abstraction/WidgetBigAbstraction.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
-              <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+              <caret line="3" column="89" lean-forward="false" selection-start-line="3" selection-start-column="89" selection-end-line="3" selection-end-column="89" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderSaveProducts.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Facade/Subsystem/OrderSaveProducts.php">
+      <file leaf-file-name="WidgetMiddleAbstraction.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Abstraction/WidgetMiddleAbstraction.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
-              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="49" />
+              <caret line="3" column="89" lean-forward="false" selection-start-line="3" selection-start-column="89" selection-end-line="3" selection-end-column="89" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderSaveUsers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Facade/Subsystem/OrderSaveUsers.php">
+      <file leaf-file-name="WidgetSmallAbstraction.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Abstraction/WidgetSmallAbstraction.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="56" lean-forward="false" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppServiceProvider.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state relative-caret-position="105">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
-                <element signature="e#33#102#0#PHP" expanded="true" />
+                <element signature="e#77#166#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LaravelSingleton.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Singleton/LaravelSingleton.php">
+      <file leaf-file-name="CategoryWidgetRealization.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Realization/CategoryWidgetRealization.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="50" />
+            <state relative-caret-position="420">
+              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+              <folding>
+                <element signature="e#77#135#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductWidgetRealization.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Realization/ProductWidgetRealization.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="89" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MediaLibraryAdapter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Adapter/Classes/MediaLibraryAdapter.php">
+      <file leaf-file-name="WidgetBigProduct.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetProduct/WidgetBigProduct.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="168">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="e#90#147#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WidgetBigCategory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetCategory/WidgetBigCategory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+              <folding>
+                <element signature="e#91#149#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WidgetRealizationInterface.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Interfaces/WidgetRealizationInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WidgetAbstraction.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Abstraction/WidgetAbstraction.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -144,7 +170,12 @@
       <find>But</find>
       <find>calculateUserSalary</find>
       <find>MultitonTrait</find>
+      <find>WitoutBridge</find>
+      <find>WithoutBridgeDemo</find>
     </findStrings>
+    <replaceStrings>
+      <replace>WithoutBridge</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -152,41 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Singleton/AnotherConnection.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Singleton/Interfaces/AnotherConnection.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Singleton/SimpleSingleton.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Interfaces/SararyStrategyInterface.php" />
-        <option value="$PROJECT_DIR$/app/Models/User.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/CourierAutoNightStrategy.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/CourierAutoStrategy.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/CourierHikigStrstegy.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/FlorisStrategy.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/LogistStrategy.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/SalaryManager.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Interfaces/SalaryStrategyInterface.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/AbstractStrategy.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/Interfaces/MultitonInterface.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/SimpleMultitonNext.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/MulttitonTrait.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/MultitonTrait.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/SimpleMultiton.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/Classes/BlogPost.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/BlogPostBuilder.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/Interfaces/BlogPostBuilderInterface.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/BlogPostManager.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/LazyInitialization/LaztInitialization.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/LazyInitialization/LazyInitialization.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Prototype/BlogPostRepository.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Prototype/CoreRepository.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Prototype/UserRepository.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Prototype/PrototypeDemo.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Prototype/Client.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/Prototype/Order.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/ObjectPool/Objects/Calculator.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/ObjectPool/Objects/CredicCard.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/ObjectPool/Objects/User.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/ObjectPool/Interfaces.php" />
-        <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/ObjectPool/Interfaces/ObjectPoolInterface.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/ObjectPool/ObjectPool.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Generating/ObjectPool/ObjectPoolDemo.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Adapter/MediaLibrarySelfWritten.php" />
@@ -197,12 +193,47 @@
         <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Adapter/Classes/MediaLibrarySelfWritten.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Adapter/Classes/MediaLibraryAdapter.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/BlogPost.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Facade/OrderSaveFacade.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Facade/Subsystem/OrderSaveDates.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Facade/Subsystem/OrderSaveProducts.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Facade/Subsystem/OrderSaveUsers.php" />
         <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Facade/Subsystem/SaveOrderAbstract.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/Classes/WidgetCategory/WidgetBigProduct.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/Classes/WidgetCategory/WidgetSmallCategory.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/Classes/WidgetCategory/WidgetBigCategory.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/Classes/WidgetCategory/WidgetMiddleCategory.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/Classes/WidgetProduct/WidgetBigProduct.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/Classes/WidgetProduct/WidgetMiddleProduct.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/Classes/WidgetProduct/WidgetSmallProduct.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WitoutBridge/Classes/WidgetCategory/WidgetBigCategory.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WitoutBridge/Classes/WidgetCategory/WidgetMiddleCategory.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WitoutBridge/Classes/WidgetCategory/WidgetSmallCategory.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WitoutBridge/Classes/WidgetProduct/WidgetBigProduct.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WitoutBridge/Classes/WidgetProduct/WidgetMiddleProduct.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WitoutBridge/Classes/WidgetProduct/WidgetSmallProduct.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/Entities/Product.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/Entities/Category.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/Entities/Client.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WitoutBridge/Classes/WidgetAbstract.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridgeDemo.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetProduct/WidgetBigProduct.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetAbstract.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetProduct/WidgetMiddleProduct.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetProduct/WidgetSmallProduct.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetCategory/WidgetBigCategory.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetCategory/WidgetMiddleCategory.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetCategory/WidgetSmallCategory.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/WithoutBridgeDemo.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/WithBridge.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/BlogPost.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/WithBridgeDemo.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Realization/ProductWidgetRealization.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Realization/CategoryWidgetRealization.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Interfaces/WidgetRealizationInterface.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Abstraction/WidgetAbstraction.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Abstraction/WidgetBigAbstraction.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Abstraction/WidgetMiddleAbstraction.php" />
+        <option value="$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Abstraction/WidgetSmallAbstraction.php" />
       </list>
     </option>
   </component>
@@ -316,21 +347,6 @@
               <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Generating" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Generating" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Prototype" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Structure" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -339,7 +355,7 @@
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Structure" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Facade" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bridge" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -347,8 +363,92 @@
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Structure" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Facade" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Subsystem" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bridge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WithBridge" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Structure" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bridge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WithBridge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Abstraction" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Structure" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bridge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WithBridge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Interfaces" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Structure" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bridge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WithBridge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Realization" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Structure" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bridge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WithoutBridge" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Structure" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bridge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WithoutBridge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Structure" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bridge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WithoutBridge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WidgetCategory" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DesignPatterns" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Structure" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Bridge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WithoutBridge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WidgetProduct" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
@@ -375,11 +475,11 @@
       <recent name="C:\Users\Aqitaniya\Desktop\Patterns\app\DesignPatterns\Generating\AbstractFactory\Classes\SemanyicUI" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Web\Patterns\app\DesignPatterns\Structure\Bridge\WithBridge" />
+      <recent name="D:\Web\Patterns\app\DesignPatterns\Structure\Bridge\WithoutBridge" />
+      <recent name="D:\Web\Patterns\app\DesignPatterns\Structure\Bridge\WitoutBridge" />
+      <recent name="D:\Web\Patterns\app\DesignPatterns\Structure\Bridge\Classes\WidgetProduct" />
       <recent name="D:\Web\Patterns\app\DesignPatterns\Structure\Adapter\Classes" />
-      <recent name="D:\Web\Patterns\app\DesignPatterns\Behavior" />
-      <recent name="D:\Web\Patterns\app\DesignPatterns\Generating\Singleton\Interfaces" />
-      <recent name="D:\Web\Patterns\app\DesignPatterns\Generating\StaticFactory" />
-      <recent name="C:\Users\Aqitaniya\Desktop\Patterns\app\DesignPatterns" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -409,28 +509,29 @@
       <workItem from="1612946350117" duration="426000" />
       <workItem from="1612982274555" duration="16668000" />
       <workItem from="1613217153431" duration="20443000" />
-      <workItem from="1613590848401" duration="22289000" />
+      <workItem from="1613590848401" duration="29985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66409000" />
+    <option name="totallyTimeSpent" value="74105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26852846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28517723" sideWeight="0.49528936" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15375854" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14232008" sideWeight="0.5047106" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -459,171 +560,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/StaticFactory/Interfaces/MessengerStaticFactoryInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/StaticFactory/StaticFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
-          <folding>
-            <element signature="e#62#121#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/SimplaFactory/Interfaces/MessengerSimpleFactoryInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/CourierAutoNightStrategy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/CourierAutoStrategy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/CourierHikigStrstegy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/FlorisStrategy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="45" lean-forward="false" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/LogistStrategy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/SalaryManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="72" column="21" lean-forward="false" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
-          <folding>
-            <element signature="e#55#131#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Interfaces/SalaryStrategyInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Behavior/Strategy/Strategies/AbstractStrategy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/Interfaces/MultitonInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/MultitonTrait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Multiton/SimpleMultiton.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="72" lean-forward="false" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Singleton/SingletonTrait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="132" lean-forward="false" selection-start-line="18" selection-start-column="132" selection-end-line="18" selection-end-column="132" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Singleton/SimpleSingleton.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/FactoryMethod/Classes/Forms/AbstractForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/Classes/BlogPost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/Interfaces/BlogPostBuilderInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/Builder/BlogPostManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Generating/LazyInitialization/LazyInitialization.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -739,7 +675,7 @@
         <state relative-caret-position="426">
           <caret line="51" column="88" lean-forward="false" selection-start-line="51" selection-start-column="88" selection-end-line="51" selection-end-column="88" />
           <folding>
-            <element signature="e#59#123#0#PHP" expanded="true" />
+            <element signature="e#59#123#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -749,7 +685,7 @@
         <state relative-caret-position="21">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="23" />
           <folding>
-            <element signature="e#57#135#0#PHP" expanded="true" />
+            <element signature="e#57#135#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -807,7 +743,7 @@
         <state relative-caret-position="384">
           <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding>
-            <element signature="e#33#102#0#PHP" expanded="true" />
+            <element signature="e#33#102#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -817,26 +753,6 @@
         <state relative-caret-position="336">
           <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogPost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="385" column="0" lean-forward="false" selection-start-line="385" selection-start-column="0" selection-end-line="394" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#114#0#PHP" expanded="true" />
-            <element signature="e#1774#2195#0#PHP" expanded="false" />
-            <element signature="e#2642#3073#0#PHP" expanded="false" />
-            <element signature="e#3645#3748#0#PHP" expanded="false" />
-            <element signature="e#5405#5646#0#PHP" expanded="false" />
-            <element signature="e#6240#6396#0#PHP" expanded="false" />
-            <element signature="e#6601#6821#0#PHP" expanded="false" />
-            <element signature="e#7098#7358#0#PHP" expanded="false" />
-            <element signature="e#7799#8854#0#PHP" expanded="false" />
-            <element signature="e#9333#10007#0#PHP" expanded="false" />
-            <element signature="e#13289#13586#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -872,19 +788,227 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Facade/OrderSaveFacade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Facade/Subsystem/SaveOrderAbstract.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Facade/OrderSaveFacade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="46" />
+          <folding>
+            <element signature="e#54#119#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/Entities/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/Entities/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/Entities/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetAbstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetProduct/WidgetMiddleProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetCategory/WidgetMiddleCategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding>
+            <element signature="e#91#149#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetProduct/WidgetSmallProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetCategory/WidgetSmallCategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#91#149#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/BridgeDemo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/WithoutBridgeDemo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="60" />
+          <folding>
+            <element signature="e#68#125#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogPost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4794">
+          <caret line="20" column="72" lean-forward="true" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
+          <folding>
+            <element signature="e#2062#2483#0#PHP" expanded="false" />
+            <element signature="e#2930#3361#0#PHP" expanded="false" />
+            <element signature="e#3933#4036#0#PHP" expanded="false" />
+            <element signature="e#5693#5934#0#PHP" expanded="false" />
+            <element signature="e#6528#6684#0#PHP" expanded="false" />
+            <element signature="e#6889#7109#0#PHP" expanded="false" />
+            <element signature="e#7386#7646#0#PHP" expanded="false" />
+            <element signature="e#8087#9142#0#PHP" expanded="false" />
+            <element signature="e#9621#10295#0#PHP" expanded="false" />
+            <element signature="e#13577#13874#0#PHP" expanded="false" />
+            <element signature="e#15169#15605#0#PHP" expanded="false" />
+            <element signature="e#15611#15891#0#PHP" expanded="false" />
+            <element signature="e#15897#16054#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Wishes3/client-universal/src/app/account/account.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetProduct/WidgetBigProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#90#147#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithoutBridge/Classes/WidgetCategory/WidgetBigCategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding>
+            <element signature="e#91#149#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Interfaces/WidgetRealizationInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Abstraction/WidgetBigAbstraction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="89" lean-forward="false" selection-start-line="3" selection-start-column="89" selection-end-line="3" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Abstraction/WidgetMiddleAbstraction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="89" lean-forward="false" selection-start-line="3" selection-start-column="89" selection-end-line="3" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Abstraction/WidgetSmallAbstraction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#77#166#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Abstraction/WidgetAbstraction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Realization/ProductWidgetRealization.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/Realization/CategoryWidgetRealization.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="e#77#135#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DesignPatterns/Structure/Bridge/WithBridge/WithBridgeDemo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <element signature="e#65#122#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
